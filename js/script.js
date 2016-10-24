@@ -51,7 +51,7 @@ function consoleText(words, id, colors) {
       target.innerHTML = words[0].substring(0, letterCount)
       letterCount += x;
     }
-  }, 120)
+  }, 80)
   window.setInterval(function() {
     if (visible === true) {
       con.className = 'console-underscore hidden'
