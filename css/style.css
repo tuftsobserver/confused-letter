@@ -110,6 +110,9 @@ a:hover {
 }
 
 @media (max-width: 650px) {
+  #article-text {
+    text-align: left;
+  }
   .console-container {
     font-size: 2em;
   }
