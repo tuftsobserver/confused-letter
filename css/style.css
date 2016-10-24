@@ -108,3 +108,9 @@ a:hover {
   width: 50%;
   height: auto;
 }
+
+@media (max-width: 650px) {
+  .console-container {
+    font-size: 2em;
+  }
+}
